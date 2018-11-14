@@ -7,6 +7,7 @@ prebuilt_cxx_library(
   ]), 
   deps = [
     'buckaroo.github.buckaroo-pm.boost-static_assert//:static-assert', 
+    'buckaroo.github.buckaroo-pm.boost-utility//:utility', 
   ], 
   visibility = [
     'PUBLIC', 
