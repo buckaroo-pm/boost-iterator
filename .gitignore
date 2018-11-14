@@ -1,2 +1,6 @@
 .buckd
 buck-out
+buckaroo
+buckaroo-packages
+BUCKAROO_DEPS
+cache

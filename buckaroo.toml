@@ -1,6 +1,14 @@
 targets = [ "//:iterator" ]
 
 [[dependency]]
+package = "github.com/buckaroo-pm/boost-config"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-mpl"
+version = "branch=master"
+
+[[dependency]]
 package = "github.com/buckaroo-pm/boost-static_assert"
 version = "branch=master"
 
