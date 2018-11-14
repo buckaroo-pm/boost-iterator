@@ -3,3 +3,7 @@ targets = [ "//:iterator" ]
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-static_assert"
 version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-utility"
+version = "branch=master"
