@@ -15,3 +15,7 @@ version = "branch=master"
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-utility"
 version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-core"
+version = "branch=master"

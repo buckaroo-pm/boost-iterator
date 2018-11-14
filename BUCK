@@ -8,6 +8,7 @@ prebuilt_cxx_library(
   deps = [
     'buckaroo.github.buckaroo-pm.boost-config//:config', 
     'buckaroo.github.buckaroo-pm.boost-mpl//:mpl', 
+    'buckaroo.github.buckaroo-pm.boost-core//:core', 
     'buckaroo.github.buckaroo-pm.boost-static_assert//:static-assert', 
     'buckaroo.github.buckaroo-pm.boost-utility//:utility', 
   ], 
