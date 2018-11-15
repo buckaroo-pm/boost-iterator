@@ -1,8 +1,2 @@
-[repositories]
-  buckaroo.github.buckaroo-pm.boost-config = ./buckaroo-packages/github/buckaroo-pm/boost-config
-  buckaroo.github.buckaroo-pm.boost-detail = ./buckaroo-packages/github/buckaroo-pm/boost-detail
-  buckaroo.github.buckaroo-pm.boost-mpl = ./buckaroo-packages/github/buckaroo-pm/boost-mpl
-  buckaroo.github.buckaroo-pm.boost-preprocessor = ./buckaroo-packages/github/buckaroo-pm/boost-preprocessor
-  buckaroo.github.buckaroo-pm.boost-static_assert = ./buckaroo-packages/github/buckaroo-pm/boost-static_assert
-  buckaroo.github.buckaroo-pm.boost-type_traits = ./buckaroo-packages/github/buckaroo-pm/boost-type_traits
-  buckaroo.github.buckaroo-pm.boost-utility = ./buckaroo-packages/github/buckaroo-pm/boost-utility
+[project]
+  ignore = .git
