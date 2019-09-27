@@ -1,0 +1,33 @@
+manifest = "259c12b9cad9bff657b9d7d9c6b8c3cf15dfe9c1a18798483bb28d2eb09d151f"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-config"
+target = "//:config"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-static_assert"
+target = "//:static_assert"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-utility"
+target = "//:utility"
+
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "1.21.2" ]
+revision = "3388220f3fc335dbc74e53760415af09766f2667"
+
+[lock."github.com/buckaroo-pm/boost-detail"]
+versions = [ "1.21.2" ]
+revision = "ea6c592ab3d7459f0f5268051126287078e5bf17"
+
+[lock."github.com/buckaroo-pm/boost-static_assert"]
+versions = [ "1.21.2" ]
+revision = "c60b95e072856612745a79d7abc7e74f32402f56"
+
+[lock."github.com/buckaroo-pm/boost-type_traits"]
+versions = [ "1.21.2" ]
+revision = "6ed8dc46c3c11409e7785e3989b8e863e5deffd8"
+
+[lock."github.com/buckaroo-pm/boost-utility"]
+versions = [ "1.21.2" ]
+revision = "d2856eb49375f63fd4360faeca95cf8f200d1ba2"
