@@ -1,0 +1,20 @@
+load("//buckaroo:defs.bzl", "buckaroo_deps")
+
+cc_library(
+  name = "iterator",
+  includes = [
+    "include",
+  ],
+  hdrs = glob([
+    "include/**/*.hpp",
+    "include/**/*.ipp",
+    "include/**/*.inl",
+  ]),
+  srcs = glob([
+    "src/**/*.cpp",
+  ]),
+  deps = buckaroo_deps(),
+  visibility = [
+    '//visibility:public',
+  ],
+)
