@@ -1,0 +1,17 @@
+targets = ["//:iterator"]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-config"
+version = "1.33.0"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-mpl"
+version = "1.33.0"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-static_assert"
+version = "1.33.0"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-utility"
+version = "1.33.0"
